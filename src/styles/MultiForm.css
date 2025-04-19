@@ -49,3 +49,18 @@ body {
     background: #00ffc8;
     color: #111;
   }
+
+  .step-item span {
+    font-size: 13px;
+    opacity: 0.9;
+  }
+  
+  .step-item .line {
+    width: 2px;
+    height: 30px;
+    background-color: rgba(0, 255, 200, 0.4);
+    position: absolute;
+    left: 19px;
+    top: 50px;
+  }
+  
