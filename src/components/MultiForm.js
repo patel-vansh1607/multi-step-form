@@ -17,6 +17,9 @@ const MultiForm = () => {
         company: '',
         description: ''
   });
+  const handleChange = e => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
     return(
         <div className="main-div">
             <div className="wrapper">
