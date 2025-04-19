@@ -81,4 +81,13 @@ body {
     color: #fff;
     outline: none;
   }
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: -10px;
+  }
   
