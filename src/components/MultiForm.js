@@ -20,6 +20,69 @@ const MultiForm = () => {
   const handleChange = e => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
+  const renderStepContent = () => {
+    switch (currentStep) {
+      case 0:
+        return (
+          <>
+            <label>* Email</label>
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </>
+        );
+      case 1:
+        return (
+          <>
+            <label>* Mobile Number</label>
+            <input
+              type="text"
+              name="mobile"
+              value={formData.mobile}
+              onChange={handleChange}
+              required
+            />
+            <label>Phone Number</label>
+            <input
+              type="text"
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+            />
+          </>
+        );
+      case 2:
+        return (
+          <>
+            <label>Company Name</label>
+            <input
+              type="text"
+              name="company"
+              value={formData.company}
+              onChange={handleChange}
+            />
+          </>
+        );
+      case 3:
+        return (
+          <>
+            <label>Description</label>
+            <textarea
+              name="description"
+              value={formData.description}
+              onChange={handleChange}
+            />
+          </>
+        );
+      default:
+        return null;
+    }
+  };
+
     return(
         <div className="main-div">
             <div className="wrapper">
