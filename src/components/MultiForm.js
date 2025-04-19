@@ -8,6 +8,15 @@ const steps = [
     { label: 'Description', icon: <FaAlignLeft /> }
   ];
 const MultiForm = () => {
+
+    const [currentStep, setCurrentStep] = useState(1);
+    const [formData, setFormData] = useState({
+        email: '',
+        mobile: '',
+        phone: '',
+        company: '',
+        description: ''
+  });
     return(
         <div className="main-div">
             <div className="wrapper">
