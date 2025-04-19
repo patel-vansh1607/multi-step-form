@@ -1,7 +1,7 @@
-[![Project Banner](./src//images/readme-project-banner-01.png)](https://image-carousel-iota.vercel.app/)
+[![Project Banner](./src//images/readme-project-banner-01.png)]()
 ---
 # 🚀 **Multi Step Form**  
-> _A website where it displays a stop watch_
+> _A website where it a multi-step form which has many inputs to be filled_
 ---
 
 ## 🔥 **Features**
