@@ -89,7 +89,31 @@ const MultiForm = () => {
     return(
         <div className="main-div">
             <div className="wrapper">
-        
+            <div className="container">
+        <aside className="sidebar">
+          {steps.map((step, i) => (
+            <div
+              className={`step-item ${i === currentStep ? 'active' : ''}`}
+              key={i}
+              onClick={() => setCurrentStep(i)}
+            >
+              <div className="icon-box">{step.icon}</div>
+              <span>{step.label}</span>
+              {i < steps.length - 1 && <div className="line" />}
+            </div>
+          ))}
+        </aside>
+        <main className="form-area">
+          <form onSubmit={handleSubmit}>
+            {renderStepContent()}
+          </form>
+        </main>
+      </div>
+      <div className="send-button">
+        <button type="submit" form="form">
+          <span>✈️ Send</span>
+        </button>
+      </div>
             </div>
         </div>
     )
