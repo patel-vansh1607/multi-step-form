@@ -82,7 +82,10 @@ const MultiForm = () => {
         return null;
     }
   };
-
+  const handleSubmit = e => {
+    e.preventDefault();
+    alert('Form submitted successfully!');
+  };
     return(
         <div className="main-div">
             <div className="wrapper">
