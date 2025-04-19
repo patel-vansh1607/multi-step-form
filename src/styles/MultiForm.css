@@ -90,4 +90,25 @@ body {
     font-size: 14px;
     margin-bottom: -10px;
   }
+  .send-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .send-button button {
+    background-color: #3ab7a5;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,255,200,0.3);
+    transition: 0.3s ease;
+  }
+  
+  .send-button button:hover {
+    background-color: #00ffc8;
+    color: #000;
+  }
   
