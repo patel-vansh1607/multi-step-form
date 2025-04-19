@@ -63,4 +63,14 @@ body {
     left: 19px;
     top: 50px;
   }
+  .form-area {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   
