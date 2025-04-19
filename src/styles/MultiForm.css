@@ -22,3 +22,9 @@ body {
     overflow: hidden;
     box-shadow: 0 0 30px rgba(0,0,0,0.2);
   }
+  .sidebar {
+    width: 200px;
+    padding: 30px 10px;
+    background: rgba(0,0,0,0.2);
+    position: relative;
+  }
