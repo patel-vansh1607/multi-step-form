@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import MultiStepForm from './components/MultiForm';
+import MultiForm from './components/MultiForm';
 
 function App() {
   return (
     <div className="App">
-      <MultiStepForm />
+      <MultiForm />
     </div>
   );
 }
