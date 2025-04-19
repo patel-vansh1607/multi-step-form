@@ -118,3 +118,5 @@ const MultiForm = () => {
         </div>
     )
 }
+
+export default MultiForm
