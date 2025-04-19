@@ -13,3 +13,12 @@ body {
     flex-direction: column;
     gap: 20px;
   }
+  .container {
+    display: flex;
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  }
